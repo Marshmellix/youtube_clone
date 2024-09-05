@@ -26,11 +26,34 @@ header {
   gap: 20px;
   align-items: center;
 }
+
+
 .search-bar {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
+
+
+.avatar{
+background-color: #ffffff;
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+
+}
+
+.notification-icons {
+ display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
 .nav-item {
   list-style: none;
 }
