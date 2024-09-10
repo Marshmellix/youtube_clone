@@ -183,6 +183,8 @@ header {
 
 /* change content to 2 by 6 at max screen of 769 */
 
+/* changed to  3 by 4 @ 1200px */
+
 @media screen and (max-width: 1200px) {
   .container {
     flex-direction: column;
