@@ -5,13 +5,43 @@
 }
 
 h1 {
+ reponsiveness
+  text-decoration: underline;
+
   font-family: Roboto, sans-serif;
+ responsiveness
   text-align: center;
 }
 .nav-menu {
   display: flex;
   gap: 10px;
 }
+
+ reponsiveness
+.nav-item {
+  list-style: none;
+}
+.container {
+  height: 500px;
+  display: flex;
+  width: 100%;
+  margin: 0 0.75rem;
+  padding: auto;
+}
+.nav {
+  width: 16%;
+  background-color: #5d5c5c;
+  padding: 0.75rem;
+}
+.nav ul {
+  list-style: none;
+}
+.content {
+  width: 84%;
+  background-color: #f1f1f1;
+  padding: 0.7srem;
+}
+
 
 header {
   display: flex;
@@ -115,6 +145,7 @@ header {
   padding: 0.7srem;
 }
 
+ responsiveness
 .flex-container {
   display: flex;
   gap: 20px;
@@ -147,7 +178,11 @@ header {
 }
 .grid-container {
   display: grid;
+ reponsiveness
+  margin: 2opx;
+
   padding: 20px;
+ responsiveness
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -163,6 +198,8 @@ header {
   width: 320px;
   height: 240px;
 }
+ reponsiveness
+
 
 /* 
   Responsive design
@@ -221,3 +258,4 @@ header {
     grid-template-rows: repeat(6, 1fr);
   }
 }
+ responsiveness
