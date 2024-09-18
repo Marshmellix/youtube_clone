@@ -109,6 +109,8 @@ header {
 .nav ul {
   list-style: none;
 }
+
+
 .content {
   width: 84%;
   background-color: #f1f1f1;
@@ -221,3 +223,27 @@ header {
     grid-template-rows: repeat(6, 1fr);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .nav {
+    width: 100%;
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  /* .nav-menu{
+    display: none;
+  } */
+  .flex-container {
+    flex-direction: column;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+}
+
